@@ -28,8 +28,11 @@ return packer.startup(function(use)
 
   use("bluz71/vim-nightfly-guicolors")
 
-  --file explorer
+  -- file explorer
   use("nvim-tree/nvim-tree.lua")
+
+  -- vs-code like icons
+  use("nvim-tree/nvim-web-devicons")
 
   if packer_bootstrap then
 	  require("packer").sync()
