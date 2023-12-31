@@ -7,7 +7,6 @@
       pkgs.tmux
       pkgs.neovim
       pkgs.iterm2
-      pkgs.alacritty
     ];
     file.".config" = { source = ./config; recursive = true; };
     file.".zshrc" = { source = ./.zshrc; };
