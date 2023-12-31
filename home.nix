@@ -9,6 +9,7 @@
       pkgs.iterm2
     ];
     file.".zshrc" = { source = ./.zshrc; };
+    file.".config" = { source = ./config; recursive = true; };
   };
   
   xdg.enable = true;
