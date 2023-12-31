@@ -8,8 +8,8 @@
       pkgs.neovim
       pkgs.iterm2
     ];
-    file.".zshrc" = { source = ./.zshrc; };
     file.".config" = { source = ./config; recursive = true; };
+    file.".zshrc" = { source = ./.zshrc; };
   };
   
   xdg.enable = true;
