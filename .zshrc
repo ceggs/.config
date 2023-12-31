@@ -117,9 +117,11 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias vim='nvim'
-alias vimconfig='vim ~/.config/nvim/init.lua'
+alias vimconfig='vim ~/.dotfiles/config/nvim/init.lua'
+alias tmuxconfig='vim ~/.dotfiles/config/tmux/tmux.conf'
 
-alias tmuxconfig='vim ~/.config/tmux/tmux.conf'
+
+alias hm-switch='home-manager switch --flake ~/.dotfiles'
 
 alias bd='bitcoind'
 alias bcli='bitcoin-cli'
