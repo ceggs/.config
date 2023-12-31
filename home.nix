@@ -10,6 +10,7 @@
     ];
     file.".config" = { source = ./config; recursive = true; };
     file.".zshrc" = { source = ./.zshrc; };
+    file.".gitconfig" = { source = ./.gitconfig; };
   };
   
   xdg.enable = true;
