@@ -8,6 +8,7 @@
       pkgs.neovim
       pkgs.iterm2
     ];
+    file.".zshrc" = { source = ./.zshrc; };
   };
   
   xdg.enable = true;
