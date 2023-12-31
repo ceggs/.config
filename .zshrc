@@ -122,6 +122,8 @@ alias tmuxconfig='vim ~/.dotfiles/config/tmux/tmux.conf'
 
 
 alias hm-switch='home-manager switch --flake ~/.dotfiles'
+alias hm-conf-zshrc='vim ~/.dotfiles/.zshrc'
+alias hm-conf-home='vim ~/.dotfiles/home.nix'
 
 alias bd='bitcoind'
 alias bcli='bitcoin-cli'
