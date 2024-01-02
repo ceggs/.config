@@ -7,10 +7,10 @@ chruby ruby-3.2.1
 
 # vim
 alias vim='nvim'
-alias vimconfig='vim ~/.dotfiles/config/nvim/init.lua'
+alias vim-conf='vim ~/.dotfiles/config/nvim/init.lua'
 
 #tmux
-alias tmuxconfig='vim ~/.dotfiles/config/tmux/tmux.conf'
+alias tmux-conf='vim ~/.dotfiles/config/tmux/tmux.conf'
 
 # nix home-manager
 alias hm-switch='home-manager switch --flake ~/.dotfiles'
