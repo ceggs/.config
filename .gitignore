@@ -1,2 +1,4 @@
 .DS_Store
 config/tmux/plugins/tpm
+config/zsh/plugins/zsh-autosuggesstions
+config/zsh/plugins/fast-syntax-highlighting
