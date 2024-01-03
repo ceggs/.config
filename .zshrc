@@ -1,4 +1,10 @@
-#enable starship
+# zsh home
+export ZSH=$HOME/.config/zsh
+
+#zsh plugins 
+[[ -f $ZSH/plugins/plugins.zsh ]] && source $ZSH/plugins/plugins.zsh
+
+# enable starship
 eval "$(starship init zsh)"
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 
