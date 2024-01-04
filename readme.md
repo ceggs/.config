@@ -67,3 +67,7 @@ vim ~/.dotfiles/.zshrc
 ``` bash
 vim ~/.dotfiles/home.nix
 ```
+
+## Credits
+
+I used the follwoing guide [Nixing Homebrew: Streamlining package management on your machine](https://dev.to/synecdokey/nix-on-macos-2oj3) - Thanks to [Emilia](https://dev.to/synecdokey)
