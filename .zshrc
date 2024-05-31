@@ -20,9 +20,6 @@ alias hm-switch='home-manager switch --flake ~/.dotfiles'
 alias hm-conf-zshrc='vim ~/.dotfiles/.zshrc'
 alias hm-conf-home='vim ~/.dotfiles/home.nix'
 
-# bitcoin
-alias bd='bitcoind'
-alias bcli='bitcoin-cli'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
