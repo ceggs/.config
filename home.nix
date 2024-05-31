@@ -13,7 +13,7 @@
     file.".zshrc" = { source = ./.zshrc; };
     file.".gitconfig" = { source = ./.gitconfig; };
   };
-  
+
   xdg.enable = true;
 
   programs.home-manager.enable = true;
